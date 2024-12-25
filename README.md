@@ -2,7 +2,7 @@
 
 #### 前提
 这是由 https://gitee.com/liyouyinjia/ctftools-all-in-one 转发至 Github 过来，<br>
-目的让墙内外的都能够通过免费的方式下载到本程式。<br>
+目的是通过BT让所有人都能够通过免费的方式下载到本程式。<br>
 方案归 @liyouyinjia 及 参与贡献者拥有。<br>
 这里只负责日常跟进原方案的更新，并以最实时的速度发布上来。<br>
 欢迎加入成为贡献者，协助提供更新并上传。<br>
@@ -19,13 +19,22 @@ https://github.com/RemusDBD/ctftools-all-in-one
 目前，市场上虽然存在大量的网络安全工具和软件，但它们大多针对某一特定领域或功能，缺乏一个统一的、集成的、易于使用的综合工具平台。这导致参赛者在CTF竞赛中需要频繁切换不同的工具，不仅降低了工作效率，还增加了操作失误的风险。
 
 因此，研发一款CTF综合工具平台具有重要的现实意义和应用价值。该工具平台能够集成多个常用的网络安全工具，并提供一个统一的用户界面和操作界面，使得参赛者可以在一个平台上完成信息收集、漏洞利用、提权、文件传输等操作。
+
+#### 视频范例 (轉至参与贡献者T_N_T_liyou)
+[![视频范例](img/video-preview-T_N_T_liyou.png)](https://www.bilibili.com/video/BV1bKtXeoEzX)
+
+#### 实战例子
+[RoarCTF2019forensic - Windows Event Trace Log](https://www.cnblogs.com/handsomexuejian/p/18302560#tid-z8C73Q)
+
 #### 软件架构
 软件采用C和python
 
-![输入图片说明](imagesimage1.png)
-![输入图片说明](imagesimage2.png)
-![输入图片说明](imagesimage3.png)
-![输入图片说明](imagesimage4.png)
+![输入图片说明](img/imagesimage0.png)
+![输入图片说明](img/imagesimage1.png)
+![输入图片说明](img/imagesimage2.png)
+![输入图片说明](img/imagesimage3.png)
+![输入图片说明](img/imagesimage4.png)
+![输入图片说明](img/imagesimage5.png)
 #### 使用说明
  **默认采用GPU加速（速度快，用显存），如果只用CPU的话内存占用会多点，然后cpu的运算模式肯定速度会慢一点，如果在VM虚拟机上运行会存在无法调用GPU的情况** 
 
